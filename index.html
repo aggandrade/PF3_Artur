@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rendimento</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <main>
+        <div class="section">
+
+            <div class="title">Rendimento</div>
+            <div class="input">
+              <input placeholder="Informe seu Nome" type="text" id='nome' required="required">
+            </div>
+            <div class="input">
+                <input placeholder="Qual é o valor aplicado mensalmente?" type="text" id='valor' required="required">
+            </div>
+
+            <div class="input">
+                <input placeholder="Qual é a taxa de juros?" type="number" id='juros' required="required">
+            </div>
+
+            <div class="input">
+                <input placeholder="Qual é o numero de parcelas? (meses)" type="number" id='parcelas' required="required">
+            </div>
+
+            <button id='calcular'>Calcular</button>
+
+            <div class="result" id='resultado'></div>
+
+            <footer> Atenção! Não deixe o seu dinheiro parado, pois ele estará perdendo valor! </footer>
+
+        </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
